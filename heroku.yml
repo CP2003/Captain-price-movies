@@ -3,4 +3,4 @@ build:
     web: Dockerfile
 
 run:
-  web: python Ultimate_movies/__main__.py
+  web: python price/__main__.py
