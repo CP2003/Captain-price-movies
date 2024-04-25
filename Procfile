@@ -1,1 +1,1 @@
-worker: python price/__main__.py
+web: python price/__main__.py
