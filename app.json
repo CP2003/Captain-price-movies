@@ -2,7 +2,7 @@
   "name": "Captain-price-movies",
   "logo": "https://telegra.ph/file/c8200df88cf76116dba05.png",
   "keywords": ["python-telegram-bot,webhook,heroku,movies"],
-  "repository": "https://github.com/CP2003/Captain-price-movies",
+  "repository": "https://github.com/pamodmadubashana/Captain-price-movies",
   "description": "A adcanced movie bot in telegram",
   "scripts": {},
   "env": {
