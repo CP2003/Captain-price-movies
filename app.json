@@ -1,0 +1,31 @@
+{
+  "name": "Captain-price-movies",
+  "logo": "",
+  "keywords": ["python-telegram-bot,webhook,heroku,movies"],
+  "repository": "https://github.com/CP2003/Captain-price-movies",
+  "description": "A adcanced movie bot in telegram",
+  "scripts": {},
+  "env": {
+    "TOKEN": {
+      "description": "Get TOKEN from https://t.me/BotFather ",
+      "required": true
+    },
+    "Webhook_url": {
+      "description": "Add this after deploy eg : https://testapp-46698bc2b28d.herokuapp.com/ . you can find your url from app settings",
+      "required": false,
+      "value": "False"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "stack": "heroku-22"
+}
