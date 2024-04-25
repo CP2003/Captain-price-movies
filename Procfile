@@ -1,1 +1,1 @@
-worker: python Ultimate_movies/__main__.py
+worker: python price/__main__.py
